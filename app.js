@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
             listItem.textContent = task;
 
             const removeButton = document.createElement('button');
-            removeButton.textContent = 'Remove';
+            removeButton.textContent = 'Remove NOW';
 
             // Add a space before the "Remove" button text
             listItem.appendChild(document.createTextNode(' '));
