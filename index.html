@@ -13,15 +13,6 @@
     <input type="text" id="newTask" placeholder="Add a new task">
     <button id="addTask">Add Task</button>
 
-    <script>
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('./sw.js').then(function(registration) {
-      console.log('Service Worker registered with scope:', registration.scope);
-    }).catch(function(error) {
-      console.error('Service Worker registration failed:', error);
-    });
-  }
-</script>
-
+    <script src="app.js"></script>
 </body>
 </html>
